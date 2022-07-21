@@ -1,0 +1,16 @@
+/* Link{
+    line-height: 100%;
+} */
+
+.light {
+    /* background-color: red; */
+    color: white;
+    
+}
+.dark{
+    
+    color: rgb(216, 111, 197);
+}
+.fa-cannabis{
+    color: rgb(21, 166, 228);
+}
