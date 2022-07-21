@@ -9,6 +9,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Department from './Department/Department';
 import Salary from './Salary/Salary';
 import Staff from './Staff/Staff';
+import NotFound from './NotFound/NotFound';
 
 // import DetaiStaff from './Staff/DetaiStaff';
 
@@ -20,8 +21,8 @@ root.render(
       <Route path="/" element = {<App />}>
         <Route path='staff' element = {<Staff />}/>       
         <Route path='department' element = {<Department />}/>
-        <Route path='salary' element = {<Salary />}/>
-       
+        <Route path='salary' element = {<Salary />}/>  
+        <Route path='*' element = {<NotFound />}/>  
        
       </Route>
     </Routes>
