@@ -9,21 +9,19 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Department from './Department/Department';
 import Salary from './Salary/Salary';
 import Staff from './Staff/Staff';
-import NotFound from './Notfound/NotFound';
 
 // import DetaiStaff from './Staff/DetaiStaff';
-import DetailStaff from './Staff/DetailStaff';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
       <Route path="/" element = {<App />}>
-        <Route path='staff' element = {<Staff />}/>
-        <Route path='staff/:id' element = {<DetailStaff />}/>
+        <Route path='staff' element = {<Staff />}/>       
         <Route path='department' element = {<Department />}/>
         <Route path='salary' element = {<Salary />}/>
-        <Route path='*' element = {<NotFound />}/>
+       
        
       </Route>
     </Routes>
