@@ -22,8 +22,7 @@ root.render(
         <Route path='staff' element = {<Staff />}/>       
         <Route path='department' element = {<Department />}/>
         <Route path='salary' element = {<Salary />}/>  
-        <Route path='*' element = {<NotFound />}/>  
-       
+        <Route path='*' element = {<NotFound />}/>         
       </Route>
     </Routes>
     </BrowserRouter>   
