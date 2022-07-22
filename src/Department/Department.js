@@ -1,5 +1,5 @@
 import React from 'react';
-import {DEPARTMENTS} from './staffs';
+import {DEPARTMENTS} from '../Staff/staffs';
 
 function Department() {
 
