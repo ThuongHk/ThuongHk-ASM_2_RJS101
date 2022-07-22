@@ -1,5 +1,5 @@
 import React from 'react';
-import {STAFFS} from './staffs';
+import {STAFFS} from '../Staff/staffs';
 import {Link} from 'react-router-dom';
 
 
