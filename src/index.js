@@ -10,6 +10,7 @@ import Department from './Department/Department';
 import Salary from './Salary/Salary';
 import Staff from './Staff/Staff';
 import NotFound from './NotFound/NotFound';
+import DetailStaff from './Staff/DetailStaff';
 
 // import DetaiStaff from './Staff/DetaiStaff';
 
@@ -19,7 +20,8 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path="/" element = {<App />}>
-        <Route path='staff' element = {<Staff />}/>       
+        <Route path='staff' element = {<Staff />}/>  
+        <Route path='staff/:id' element = {<DetailStaff/>}/>     
         <Route path='department' element = {<Department />}/>
         <Route path='salary' element = {<Salary />}/>  
         <Route path='*' element = {<NotFound />}/>         
