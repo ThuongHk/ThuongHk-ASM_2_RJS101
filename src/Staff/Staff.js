@@ -40,10 +40,10 @@ function Staff() {
        <div className='container'>      
          <div className='text-center'>
                  <h6 className='text-danger'>Chọn cột hiển thị</h6>
-                <button className='bg-warning text-danger btn btn-info btn-sm ml-1' onClick={()=>{setColumn(' col-6 mt-2')}}>2</button>
-                <button className='bg-warning text-danger btn btn-info btn-sm ml-1' onClick={()=>{setColumn(' col-4  mt-2')}}>3</button>
-                <button className='bg-warning text-danger btn btn-info btn-sm ml-1' onClick={()=>{setColumn(' col-3  mt-2')}}>4</button>
-                <button className='bg-warning text-danger btn btn-info btn-sm ml-1' onClick={()=>{setColumn(' col-2  mt-2')}}>6</button>
+                <button className='bg-warning text-danger btn btn-info btn-sm mr-2' onClick={()=>{setColumn(' col-6 mt-2')}}>2</button>
+                <button className='bg-warning text-danger btn btn-info btn-sm mr-2' onClick={()=>{setColumn(' col-4  mt-2')}}>3</button>
+                <button className='bg-warning text-danger btn btn-info btn-sm mr-2' onClick={()=>{setColumn(' col-3  mt-2')}}>4</button>
+                <button className='bg-warning text-danger btn btn-info btn-sm mr-2' onClick={()=>{setColumn(' col-2  mt-2')}}>6</button>
                 </div>
        <SearchStaff/>
      <div className='row'>{staffList}</div>    
