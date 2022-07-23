@@ -1,6 +1,6 @@
 import React, {useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import {Card, CardBody, CardTitle, Navbar, NavbarBrand, CardImg, CardText } from 'reactstrap';
+import {Card, CardBody, CardTitle, CardImg, CardText } from 'reactstrap';
 import dateFormat from "dateformat";
 import { STAFFS } from "./staffs";
 

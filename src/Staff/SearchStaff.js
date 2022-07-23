@@ -7,11 +7,11 @@ function SearchStaff() {
     const [inputStaff, setInputStaff] = useState('')
 
     const handleSearch = ()=>{
-        // for(let i = 0; i < STAFFS.length; i++) {
-        //     if(inputStaff === STAFFS[i].name){
-        //         newStaff.push(STAFFS[i])
-        //     }
-        // }
+        for(let i = 0; i < STAFFS.length; i++) {
+            if(inputStaff === STAFFS[i].name){
+                newStaff.push(STAFFS[i])
+            }
+        }
 
         const searchStaff = STAFFS.filter(staff => staff.name.toString() === inputStaff);
         return searchStaff
